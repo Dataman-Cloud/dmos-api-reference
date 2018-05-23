@@ -3,8 +3,10 @@ swagger: "2.0"
 info:
   version: 1.0.0
   title: API Reference 
-  description: DatamanOS API Reference 
-
+  description: DatamanOS API Reference
+  
+schemes:
+  - https
 paths:
   /oapi/v1/namespaces/{namespace}/templates:
     get:

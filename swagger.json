@@ -5,6 +5,9 @@
     "title": "API Reference",
     "description": "DatamanOS API Reference"
   },
+  "schemes": [
+    "https"
+  ],
   "paths": {
     "/oapi/v1/namespaces/{namespace}/templates": {
       "get": {
